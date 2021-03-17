@@ -17,4 +17,7 @@ public class User {
     return this.name + "->" + this.email;
   }
 
+  public Integer concat2(){
+    return this.id;
+  }
 }
