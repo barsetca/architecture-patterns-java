@@ -1,11 +1,13 @@
 package com.cherniak.architecture.patterns.rebase;
 
+import java.util.List;
 import lombok.Data;
 
 @Data
-public class Product {
+public class Category {
 
-  private Long id;
+  private long id;
   private String title;
+  private List<Product> products;
 
 }
