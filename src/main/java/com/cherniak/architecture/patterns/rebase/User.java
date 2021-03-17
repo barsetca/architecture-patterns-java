@@ -20,4 +20,9 @@ public class User {
   public Integer concat2(){
     return this.id;
   }
+
+  public Integer decrement(){
+    return this.id-1;
+  }
+
 }
