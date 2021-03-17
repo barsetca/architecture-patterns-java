@@ -21,8 +21,8 @@ public class User {
     return this.id;
   }
 
-  public Integer decrement(){
-    return this.id-1;
+  public Integer doubleDecrement(){
+    return this.id-2;
   }
 
 }
