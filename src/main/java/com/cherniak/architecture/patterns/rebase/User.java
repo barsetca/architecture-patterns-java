@@ -23,12 +23,16 @@ public class User {
 
   public Integer doubleIncrementId(){
     return this.id+2;
-  }
 
-    public long multiplyId(){
-      return (long) id*id;}
+  }
+    public Integer doubleDecrement(){
+      return this.id-2;}
+
 
       public void setIdNull(){
     this.id = null;
          }
+
+  public long multiplyId(){
+    return (long) id*id;}
 }
