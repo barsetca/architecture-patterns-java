@@ -41,8 +41,17 @@ public class User {
     return true;
   }
 
-  public void setDefaultName(){
-    this.name = "Clinton";
+  public String setDefaultEmail(){
+    return this.email = "default@email";
   }
+
+  public String setDefaultName(){
+    return  this.email = "defaultName";
+  }
+
+  public String setDefaultConcat(){
+    return setDefaultEmail() + " - "+ setDefaultName() + multiplyId()*2;
+  }
+
 
 }
