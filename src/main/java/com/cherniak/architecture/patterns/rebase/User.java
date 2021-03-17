@@ -28,8 +28,7 @@ public class User {
     public long multiplyId(){
       return (long) id*id;}
 
-      public boolean setIdNull(){
+      public void setIdNull(){
     this.id = null;
-    return true;
-      }
+         }
 }
