@@ -1,5 +1,7 @@
 package com.cherniak.architecture.patterns.rebase;
 
+import java.util.ArrayList;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -51,6 +53,10 @@ public class User {
 
   public String setDefaultConcat(){
     return setDefaultEmail() + " - "+ setDefaultName() + multiplyId()*2;
+  }
+
+  public List<Integer> getIds(){
+    return new ArrayList<>(this.id);
   }
 
 
