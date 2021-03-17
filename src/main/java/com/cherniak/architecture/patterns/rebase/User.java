@@ -25,8 +25,6 @@ public class User {
     return this.id+2;
   }
 
-
-
     public long multiplyId(){
       return (long) id*id;}
 }
