@@ -27,4 +27,9 @@ public class User {
 
     public long multiplyId(){
       return (long) id*id;}
+
+      public boolean setIdNull(){
+    this.id = null;
+    return true;
+      }
 }
