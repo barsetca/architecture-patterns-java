@@ -40,4 +40,9 @@ public class User {
     this.id = null;
     return true;
   }
+
+  public void setDefaultName(){
+    this.name = "Clinton";
+  }
+
 }
