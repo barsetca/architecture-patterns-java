@@ -17,12 +17,12 @@ public class User {
     return this.name + "->" + this.email;
   }
 
-  public Integer concat(){
+  public Integer concat2(){
     return this.id;
   }
 
-  public Integer incrementId(){
-    return this.id+1;
+  public Integer doubleDecrement(){
+    return this.id-2;
   }
 
 }
