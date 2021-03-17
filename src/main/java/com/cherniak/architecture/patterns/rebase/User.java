@@ -17,13 +17,12 @@ public class User {
     return this.name + "->" + this.email;
   }
 
-  public Integer concat2(){
+  public Integer concat(){
     return this.id;
   }
 
   public Integer doubleIncrementId(){
     return this.id+2;
-
   }
     public Integer doubleDecrement(){
       return this.id-2;}
@@ -33,6 +32,12 @@ public class User {
     this.id = null;
          }
 
-  public long multiplyId(){
-    return (long) id*id;}
+    public long multiplyId(){
+      return (long) id*id;}
+
+
+  public boolean setIdNull2(){
+    this.id = null;
+    return true;
+  }
 }
