@@ -13,7 +13,7 @@ public class User {
   private String name;
   private String email;
 
-  public String concat(){
+  public String concat1(){
     return this.name + "->" + this.email;
   }
 
