@@ -21,10 +21,11 @@ public class User {
     return this.id;
   }
 
-  public long multiplyId(){
-    return (long) id*id;
+  public Integer incrementId(){
+    return this.id+1;
+
   }
 
-
-
+    public long multiplyId(){
+      return (long) id*id;}
 }
