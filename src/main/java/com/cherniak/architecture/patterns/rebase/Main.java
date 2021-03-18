@@ -6,7 +6,8 @@ public class Main {
     User user = new User(2, "name2", "mail2");
     System.out.println(user.setDefaultConcat());
     System.out.println(user.setDefaultName());
-    //System.out.println(user.setDefaultEmail());
+    System.out.println(user.setDefaultEmail());
+    System.out.println("Rebase");
   }
 
 }
