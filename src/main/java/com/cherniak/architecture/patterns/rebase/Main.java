@@ -8,6 +8,7 @@ public class Main {
     System.out.println(user.setDefaultName());
     System.out.println(user.setDefaultEmail());
     System.out.println("Rebase");
+   // var registry = new PrometheusMeterRegistry(PrometheusConfig.DEFAULT);
   }
 
 }
